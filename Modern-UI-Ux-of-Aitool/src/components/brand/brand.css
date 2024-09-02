@@ -1,0 +1,22 @@
+.brand__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    align-content: center;
+}
+.image-container img{
+    min-width: 100px;
+}
+@media  (max-width: 425px) {
+    .section__padding{
+        padding: 0rem;
+    }
+    
+}
